@@ -1,2 +1,168 @@
 a = 'dogs are real soul '
-print(a.capitalize())
+print(a.capitalize()) #capitalize purpose is to change thr first letter in capital .
+
+OUTPUT:
+Dogs are real soul
+
+
+a = 'DOGs are real soul'
+print(a.capitalize() #capitalize purpose is to change the first letter in capital letter eventhough if we give capital letter for for first 3 words also it will change only thr first letter in capital.
+
+OUTPUT :
+Dogs are real soul
+
+
+a = 'DOGs are real soul'
+print(a.title()) #in this title it will change all th first leter in capital like D, A, S 
+
+OUTPUT :
+Dogs Are Real Soul
+
+
+str1 = "I am LEARNING 14567 python"
+print(("original string" , str1)
+print(len(str1)) 
+print("===========" #return a copy where all tab characters are extended using spaces 
+
+OUTPUT : 
+original string I am LEARNING 14567 python
+26
+=========
+
+a = 'dogs are real soul in the earth'
+print(a.endswith('h')) #returns True if a endswith specified suffix, otherwise False
+print(a[2:12])
+print(a.endswith( _suffix 'h', _start 2, _end 12))
+
+OUTPUT:
+True
+gs are rea
+False
+
+a = "DOGS ARE REAL SOU IN THE EARTH"
+b = "Dogs"
+c = "10 Dogs"
+d = "Th2Is Is $%"
+
+print(a.istitle())
+print(b.istitle())
+print(c.istitle())
+print(d.istitle())
+e = Th2Is Is $%"  #istitle() method returns True if each word in a text starts with upper case and rest of the character in the word are lower it will be False
+
+OUTPUT:
+False
+True
+True
+True 
+
+a = "DOGS ARE REAL SOUL IN EARTH"
+print(a.upper())
+
+a = "dogs are real soul in earth"
+print(a.upper)) #upper is used for changing the sentence in capital letter mean upper case 
+
+OUTPUT:
+DOGS ARE REAL SOUL IN EARTH
+DOGS ARE REAL SOUL IN EARTH
+
+a = "DOGS ARE REAL SOUL IN EARTH"
+print(a.isupper())
+
+a = "234435DOGS"
+print(a.isupper())
+
+a = 'DOGs'
+print(a.isupper()) # isupper won't consider number if it sees any small letterit shows FASLE it will considered only capital letter .
+
+OUTPUT:
+True
+True
+False.
+
+a = "Dogs are real soul in earth"
+print(a.partition("real")) #partition method is used to split the word separate inbertween given string
+
+OUTPUT:
+('Dogs are' , 'real' ,  'soul in earth')
+
+a = "Dogs are real soul in earth"
+print(a.rpartition("soul")) #rpartition is used to create three partiton based on the specified string
+
+OUTPUT:
+
+('Dogs are real ', 'soul' , 'in earth')
+
+a = "Dogs are real soul in earth"
+print(a.replace(_old: "Dogs", _new: "soul")) #this replace method is used to replace the old word into new word 
+
+OUTPUT:
+soul are real soul in earth
+
+a = "Dogs are real soul in earth"
+print(a.split()) #split method is used to split each and every sentence in string
+
+OUTPUT:
+
+['Dogs' , 'are' , 'real' , 'soul' , 'in' , 'earth']
+
+xyz = 'From niranjana.subburaj@edu.sa Sun Oct 1 08:34:19 2024'
+splitedsubstring = str.split(xyz)
+print(splitedsubstring)
+print(len(splitedsubstring))
+print(splitedsubstring[1])
+
+OUTPUT:
+
+['From', 'niranjana.subburaj@edu.sa', 'sun', 'oct', '1', '08:34:19', '2024']
+7
+niranjana.subburaj@edu.sa
+
+a = "Dogs are real soul in earth"
+print(a.startswith("D")) #startswith is to see the first letter is CAPITAL if says true if the first letter is small it shows false
+
+a = "dogs are real soul in earth"
+print(a.startswith("D")) #if it is small letter it reveals false
+
+
+OUTPUT :
+True
+False
+
+
+a = ".........,,,,,,,natureyyyyyyy"
+print(a.strip(".,y")) #strip method is used to strip both left and right of the specified string characters are removed 
+
+OUTPUT:
+nature
+
+a = "dogs are real soul in earth"
+print(a.swapcase()) #swapcase is used to change all the lower case into uppercase 
+
+OUTPUT:
+DOGS ARE REAL SOUL IN EARTH
+
+str1 = 'nature'
+str2 = '123456'
+
+maketran = str.maketrans(str1,str2)
+print(maketran)
+
+str3 = "dogs are realsoul"
+print(str3/translate(maketran))
+
+OUTPUT:
+{110:49, 97:50, 116:51, 117:52, 114:53, 101:54}
+dogs 256 562ls041
+
+a  = "dogs are real soul in earth"
+print(a.encode())
+
+OUTPUT"
+b'dogs are real soul in earth'
+
+
+
+
+
+
