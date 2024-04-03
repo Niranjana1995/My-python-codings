@@ -1,0 +1,2 @@
+a = 'dogs are real soul '
+print(a.capitalize())
