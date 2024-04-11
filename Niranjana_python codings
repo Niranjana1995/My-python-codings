@@ -192,6 +192,21 @@ print(lstcom)
 OUTPUT:
 [22, True, 24, False, 26, False, 28, True, 30, False, 32, False]
 
+PASSING ARGUMENT TO A FUNCTION USING COMPREHENSION
+
+def calculateSalary(hourly):
+    ratePerHr = 8
+    return ratePerHr * hourly
+
+my_list = [10,20,30]
+wages = [calculateSalary(i) for i in my_list] #passing argument to a function using comprehension
+print(wages)
+
+
+OUTPUT :
+[80, 160, 240]
+
+
 
 
 
