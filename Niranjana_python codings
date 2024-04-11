@@ -158,8 +158,45 @@ dogs 256 562ls041
 a  = "dogs are real soul in earth"
 print(a.encode())
 
-OUTPUT"
+OUTPUT:
 b'dogs are real soul in earth'
+
+
+List Comprehension
+
+lst = [2,3,4,5,6,7,8,9]
+lstcom = [(element+100) for element in lst if element%2 == 0] #List comprehension with if condidtion
+print(lstcom)
+
+OUTPUT :
+[102,104,106,108].
+
+Modify one elemnt 
+lst = [2,3,4,5,6,7,8,9,10,11,12,13]
+a = [ (item+100) for item in lst if item ==4] #Modifying one element
+print(a)
+print(id(lst))
+print(id(a))
+
+OUTPUT:
+[104]
+2453739852032
+2453739853888
+
+LIST COMPREHENSION WITH IF ELSE CONDITION
+
+lst = [2,3,4,5,6,7,8,9,10,11,12,13]
+lstcom = [(element+20) if element %2 ==0 else element %3 ==0 for element in lst]  #list comprehension with if else condition
+print(lstcom)
+
+OUTPUT:
+[22, True, 24, False, 26, False, 28, True, 30, False, 32, False]
+
+
+
+
+
+
 
 
 
