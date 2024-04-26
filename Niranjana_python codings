@@ -213,6 +213,135 @@ OUTPUT:
 **********dogs are real soul in "earth"***********
 
 
+st = 'dogs are real soul in "earth"'
+
+print(len(st))
+
+print(st.center(50,'*'))
+
+
+OUTPUT:
+29
+**********dogs are real soul in "earth"***********
+
+str1 = 'dogs are real soul in earth'
+print (str1.count('dogs'))
+
+OUTPUT:
+1
+
+str1 = 'dogs dogs are real soul in earth'
+print (str1.count('g' , 5 , 18))
+
+OUTPUT:
+1
+
+a = 'monty 123 python'
+print (a.endswith('n'))
+
+#print (a.endswith('n',2,12)
+
+OUTPUT:
+TRUE
+
+a = 'monty 123 python'
+print (a.endswith('pytho'))
+
+#print (a.endswith('n',2,12)
+
+OUTPUT:
+FALSE
+
+a = 'monty 123 python'
+print (a.endswith('python'))
+
+print(a.endswith('0',0,2))
+
+OUTPUT:
+True
+False
+
+str = "dogs @ 123 Real soul"
+
+print(str)
+
+print(str.capitalize())
+
+print(str)
+
+
+OUTPUT:
+
+dogs @ 123 Real soul
+Dogs @ 123 real soul
+dogs @ 123 Real soul
+
+str = "dogs @ 123 real soul"
+
+print(str.title())
+
+
+OUTPUT:
+Dogs @ 123 Real Soul
+
+str = "dogs @ 123 real soul"
+
+print(str.istitle())
+
+
+OUTPUT:
+False
+
+s = "Myfolder"
+s = "Demo002"
+s = "2bring"
+s = "my demo"   #watch the space in between
+
+s = 'dogs'
+print (s.isidentifier())
+
+s = '123'
+print (s.isidentifier())
+
+s = '2bring'
+print(s.isidentifier())
+
+s = 'my demo'        #if we give space inbetween it will come false 
+print(s.isidentifier())
+
+
+OUTPUT:
+True
+False
+False
+False
+
+s = '2abc'
+print(s.isprintable())
+
+s = 'monty 123 python'
+print(s.isprintable())
+
+s = 'abc\t'
+print(s.isprintable())
+
+s = 'abc\n\t'
+print(s.isprintable())
+
+OUTPUT:
+True
+True
+False
+False
+
+str1 = (["AA", "BB", "CC", "******" , "sssss" , "XXXXX" , "ZZ"])
+str2 = "K:"
+print(str2.join(str1))
+
+OUTPUT:
+AAK:BBK:CCK:******K:sssssK:XXXXXK:ZZ
+
+
 
 
 
