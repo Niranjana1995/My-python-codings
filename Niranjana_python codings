@@ -341,6 +341,23 @@ print(str2.join(str1))
 OUTPUT:
 AAK:BBK:CCK:******K:sssssK:XXXXXK:ZZ
 
+a = "Dogs are real soul in earth"
+print(a.partition("real"))
+
+OUTPUT:
+'Dogs are ', 'real', ' soul in earth'
+
+a = "Dogs are real real soul in earth"
+print(a.rpartition("real"))
+
+OUTPUT:
+'Dogs are real ', 'real', ' soul in earth'
+
+
+
+
+
+
 
 
 
